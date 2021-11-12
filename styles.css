@@ -1,0 +1,49 @@
+.result{
+display:none;
+}
+
+body{
+	background-color:black;
+    
+    transition:background-color 4s;
+}
+
+body:hover{
+	background-color:white;
+}
+
+
+button{
+	border:6px inset gray;
+    background-color:#bebdc9;
+    color:white;
+    margin-top: 20px;
+    padding:8px;
+}
+
+::placeholder{
+	color:#e4e3ff;
+    background-color:#8685a1;
+    border:5px outset #3b3a63;
+}
+
+.start,
+.result {
+    width: 400px;
+    padding: 50px;
+    margin: 50px auto;
+    border: 10px double #9f96ff;
+    border-radius: 90px;
+    background-color:#100982;
+    color:#b7b3ff;
+    transition:background-color 4s;
+}
+
+.result:hover,
+.start:hover{
+	background-color:white;
+}
+
+.h{
+    
+}
